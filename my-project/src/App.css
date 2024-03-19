@@ -1,0 +1,10 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.onik {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

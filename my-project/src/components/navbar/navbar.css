@@ -1,0 +1,9 @@
+
+
+.search-field {
+    outline: none;
+    background-color: #150B2B0D;
+    border-radius: 50px;
+    min-width: 220px;
+    padding: 5px 20px;
+}

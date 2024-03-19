@@ -1,0 +1,47 @@
+
+.recipe {
+    display: flex;
+    gap: 20px;
+}
+
+.cart-container {
+    width: 35%;
+    border: 1px solid #28282833;
+    border-radius: 15px;
+}
+
+.recipe-box{
+    border: 1px solid #28282833;
+    border-radius: 15px;
+    padding: 20px;
+    width: max-content;
+}
+
+.recipe-box > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid #28282833;
+}
+
+.recipe-box button {
+    background-color: #0BE58A;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 11px 25px;
+    font-weight: 600;
+}
+
+.recipe-box ul li{
+    margin: 5px 0px;
+}
+
+.prepare {
+    background-color: #0BE58A;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-weight: 600;
+}

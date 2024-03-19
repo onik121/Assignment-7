@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
             <div className="flex gap-5">
                 <input className="search-field" type="text" placeholder="Search"></input>
-                <img className="w-[45px]" src="../../../public/img/Frame 5.png"></img>
+                <img className="w-[45px]" src="../../../public/img/Frame 5.jpg"></img>
             </div>
         </div>
     );

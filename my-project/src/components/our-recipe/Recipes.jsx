@@ -20,8 +20,8 @@ const Recipes = ({data, handleCooke, handleCheck}) => {
                 </ul>
                 <div className='line my-3'></div>
                 <div className="flex gap-8">
-                    <div className="flex items-center gap-2"><img src="../../../public/img/Frame.png"></img><p>{preparing_time} Miniutes</p></div>
-                <div className="flex items-center gap-2"><img src="../../../public/img/Vector.png"></img><p className="mt-[3px]">{calories} Calories</p></div>
+                    <div className="flex items-center gap-2"><img src="../img/Frame.png"></img><p>{preparing_time} Miniutes</p></div>
+                <div className="flex items-center gap-2"><img src="../img/Vector.png"></img><p className="mt-[3px]">{calories} Calories</p></div>
                 </div>
                 <button onClick={() =>{ handleCooke(data); handleCheck(data)}}>Want to Cook</button>
             </div>
